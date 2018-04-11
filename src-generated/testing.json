@@ -102,7 +102,8 @@
     "sequence-profile-spreadsheet.xml",
     "servicerequest-profile-spreadsheet.xml",
     "specimen-profile-spreadsheet.xml",
-    "task-profile-spreadsheet.xml"
+    "task-profile-spreadsheet.xml",
+    "patient-profile-spreadsheet.xml"
   ],
   "resources": {
     "StructureDefinition/obs-base":{
@@ -112,6 +113,8 @@
     "StructureDefinition/specimen":{
     },
     "StructureDefinition/task-rec-followup":{
+    },
+    "StructureDefinition/patient-donor":{
     },
     "StructureDefinition/servicerequest":{
     },

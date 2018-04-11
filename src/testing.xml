@@ -42,6 +42,9 @@
     <extension url="http://hl7.org/fhir/tools-profile-spreadsheet">
       <valueUri value="task-profile-spreadsheet.xml"/>
     </extension>
+    <extension url="http://hl7.org/fhir/tools-profile-spreadsheet">
+      <valueUri value="patient-profile-spreadsheet.xml"/>
+    </extension>
     <package id="general">
       <name value="General Profiles"/>
       <description value="General constraints on FHIR resources to be adhered to as part of the CG implementation guide that apply regardless of what area(s) of genomics are of interest"/>
@@ -111,6 +114,18 @@
       </reference>
       <name value="Recomended Followup"/>
       <description value="Task describing the followup that is recommended"/>
+      <exampleBoolean value="false"/>
+      <package id="general"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-spreadsheet-profile">
+        <valueBoolean value="true"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/patient-donor"/>
+      </reference>
+      <name value="CIBMTR donor"/>
+      <description value="patient donor for CIBMTR"/>
       <exampleBoolean value="false"/>
       <package id="general"/>
     </resource>
