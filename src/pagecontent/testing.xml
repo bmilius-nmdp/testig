@@ -1,0 +1,24 @@
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../src-generated/schemas/fhir-single.xsd">
+  <!--draft-->
+  <p> This is a testing section. </p>
+  <a name="general"> </a>
+  <h2>General guidance</h2>
+  <p> some guidance. The quick brown fox jumps over the lazy dog. Now is the time for all good men to come to the aid of their country</p>
+
+  <a name="another-thing"> </a>
+  <h2>Another thing</h2>
+  <p> A first draft of a transaction bundle representing an HLA genotyping report using guidance of this IG can be found <a href="CG-IG-HLA-FullBundle-01.html">here</a>. </p>
+  <!--  <p>
+  some comments  
+  </p>
+  -->
+  <a name="thing1"> </a>
+  <h2>thing 1</h2>
+  <p> TODO </p>
+  <a name="thing1"> </a>
+  <h2>thing 2</h2>
+  <p> TODO </p>
+  <a name="thing3"> </a>
+  <h2>thing 3</h2>
+  <p> TODO </p>
+</div>
